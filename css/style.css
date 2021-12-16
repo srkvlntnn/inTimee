@@ -406,7 +406,7 @@ html {
 
 body {
   color: #000;
-  background: yellow;
+  /*background: yellow;*/
   font: 16px/1.2 "Rubik", "Arial", "Helvetica Neue", "Helvetica", sans-serif;
   min-width: 320px;
 }
