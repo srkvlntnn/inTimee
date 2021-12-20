@@ -376,7 +376,7 @@ textarea.placeholder {
 
 input:focus,
 textarea:focus {
-  border-color: #000;
+  border-color: #939799;
 }
 
 select {
@@ -749,23 +749,23 @@ a:hover {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #f00;
+  color: #bdc6ca;
 }
 .form-control::-moz-placeholder {
   opacity: 1;
-  color: #f00;
+  color: #bdc6ca;
 }
 .form-control:-moz-placeholder {
-  color: #f00;
+  color: #bdc6ca;
 }
 .form-control:-ms-input-placeholder {
-  color: #f00;
+  color: #bdc6ca;
 }
 .form-control.placeholder {
-  color: #f00;
+  color: #bdc6ca;
 }
 .form-control:focus {
-  border-color: #ff0;
+  border-color: #939799;
 }
 
 .grid img {
