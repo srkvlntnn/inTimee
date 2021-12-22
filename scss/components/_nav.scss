@@ -1,5 +1,16 @@
 .nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  align-items: center;
 
+
+    .current {
+      color: #009688;
+    }
 }
 
 .nav li {
@@ -7,5 +18,15 @@
 }
 
 .nav a {
-	
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  color: #282b2f;
+
+    &:hover {
+      color: #009688;
+    }
+
+
 }

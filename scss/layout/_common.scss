@@ -1,11 +1,11 @@
 // пример использования media (breakpoints в верху файла)
 body {
 	@include media ('>=tablet') {
-		background-color: $base-background-colorwhite;
+
 	}
 
 	@include media ('>=desktop') {
-		background-color: $base-background-colorwhite;
+
 	}
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1281px;
 	margin: 0 auto;
 	padding: 0 15px;
 }
@@ -49,4 +49,18 @@ body {
 		display: block;
 		width: 100%;
 	}
+}
+
+.content-box{
+	display: flex;
+}
+
+.article{
+	width: 70%;
+	margin-bottom: 20px;
+}
+
+.aside{
+	width: 30%;
+	padding-left: 60px;
 }
