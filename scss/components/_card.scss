@@ -1,15 +1,32 @@
 .card {
+  margin-bottom: 25px;
+  img{
+    margin-bottom: 30px;
+  }
+
+  time{
+    margin-bottom: 25px;
+    color: #bdc6ca;
+    font-size: 14px;
+  }
+
+  p{
+    margin: 25px 0 36px 0;
+  }
+
+  a{
+    margin-bottom: 30px;
+    color: #009688;
+    text-decoration: underline;
+
+    &:hover{
+      text-decoration: none;
+    }
+  }
 
 }
 
-.card-image {
-
-}
-
-.card-title {
-
-}
-
-.card-description {
-
+hr{
+  margin-bottom: 30px;
+  background-color: #e0e9f0;
 }

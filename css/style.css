@@ -416,10 +416,15 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: top;
+  border-radius: 5px;
 }
 
 p, ul, ol {
   margin: 0 0 1em;
+}
+
+li {
+  margin-bottom: 25px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -429,19 +434,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 44px;
+  margin-bottom: 40px;
 }
 
 h2 {
-  font-size: 27px;
+  font-size: 36px;
+  margin-bottom: 40px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 28px;
+  margin-bottom: 40px;
 }
 
 h4 {
-  font-size: 21px;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
 h5 {
@@ -453,7 +462,7 @@ h6 {
 }
 
 a {
-  color: #007bff;
+  color: #1976d2;
   text-decoration: none;
 }
 
@@ -683,7 +692,7 @@ a:hover {
   outline: none;
 }
 .btn.btn-primary {
-  background-color: #007bff;
+  background-color: #1976d2;
   color: #fff;
 }
 .btn.btn-primary:hover {
@@ -698,8 +707,8 @@ a:hover {
 }
 .btn.btn-outline-primary {
   background-color: transparent;
-  border: 2px solid #007bff;
-  color: #007bff;
+  border: 2px solid #1976d2;
+  color: #1976d2;
 }
 .btn.btn-outline-primary:hover {
   background-color: #0069d9;
@@ -751,6 +760,34 @@ a:hover {
   color: #009688;
 }
 
+.card {
+  margin-bottom: 25px;
+}
+.card img {
+  margin-bottom: 30px;
+}
+.card time {
+  margin-bottom: 25px;
+  color: #bdc6ca;
+  font-size: 14px;
+}
+.card p {
+  margin: 25px 0 36px 0;
+}
+.card a {
+  margin-bottom: 30px;
+  color: #009688;
+  text-decoration: underline;
+}
+.card a:hover {
+  text-decoration: none;
+}
+
+hr {
+  margin-bottom: 30px;
+  background-color: #e0e9f0;
+}
+
 .wrapper {
   overflow: hidden;
   position: relative;
@@ -794,6 +831,33 @@ a:hover {
 .aside {
   width: 30%;
   padding-left: 60px;
+}
+
+.breadcrumbs {
+  margin-bottom: 85px;
+}
+
+.watch-class li {
+  list-style: none;
+}
+.watch-class li a {
+  text-decoration: underline;
+}
+.watch-class li a:hover {
+  text-decoration: none;
+}
+
+.section {
+  margin-bottom: 90px;
+}
+.section img {
+  margin-bottom: 40px;
+}
+.section h4 {
+  font-size: 20px;
+}
+.section p {
+  margin-bottom: 38px;
 }
 
 .header .intro {

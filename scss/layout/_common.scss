@@ -20,6 +20,10 @@ body {
 	padding: 0 15px;
 }
 
+img{
+
+}
+
 // Обертка для полей формы
 
 .form-group {
@@ -63,4 +67,35 @@ body {
 .aside{
 	width: 30%;
 	padding-left: 60px;
+}
+
+.breadcrumbs{
+	margin-bottom: 85px;
+}
+
+.watch-class{
+	li{
+		list-style: none;
+		a{
+			text-decoration: underline;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.section{
+	margin-bottom: 90px;
+	img{
+		margin-bottom: 40px;
+	}
+
+	h4{
+		font-size: 20px;
+	}
+
+	p{
+		margin-bottom: 38px;
+	}
 }
